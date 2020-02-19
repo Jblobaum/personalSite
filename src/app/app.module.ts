@@ -7,14 +7,16 @@ import { FormsModule} from '@angular/forms'
 import { MaterialModule } from './materialModule';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { GamesComponent } from './games/games.component'
+import { GamesComponent } from './games/games.component';
+import { HeaderSideNavComponent } from './header-side-nav/header-side-nav.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PortfolioComponent,
-    GamesComponent
+    GamesComponent,
+    HeaderSideNavComponent
   ],
   imports: [
     BrowserModule,
