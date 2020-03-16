@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 
 
 app.use(bodyParser.json());
+app.use(express.static(__dirname + '/dist/personalSite'));
 
 
 
